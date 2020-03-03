@@ -1,6 +1,6 @@
 {
   "name": "@kpw/envizion-design",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A design system of reusable web components",
   "main": "dist/bundle.js",
   "module": "dist/bundle.js",
