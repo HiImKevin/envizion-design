@@ -1,8 +1,9 @@
 {
-  "name": "envizion-design-system",
+  "name": "@kpw/envizion-design",
   "version": "1.0.0",
   "description": "A design system of reusable web components",
-  "main": "index.js",
+  "main": "dist/bundle.js",
+  "module": "dist/bundle.js",
   "scripts": {
     "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +16,13 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^7.1.1",
     "rollup": "^1.32.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiImKevin/envizion-design.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HiImKevin/envizion-design/issues"
+  },
+  "homepage": "https://github.com/HiImKevin/envizion-design#readme"
 }
